@@ -1,7 +1,9 @@
-import bs4
-from bs4 import BeautifulSoup
 class fileSearch:
-    def fSearch(self):
-       folder_path = input("PDF dosyalarını tarayacak dizini girin: ")
+       def karsila(self):
+           folder_path = input("********URL Listeleme Alanı *****")
+           dataOpen = open(self.dataFile, 'r')
+           for dataShow in dataOpen:
+               print(dataShow)
+           dataOpen.close()
 
 
