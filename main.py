@@ -1,8 +1,8 @@
-from fileSearch import fileSearch
+from fileSearch import Search
 print("-: Mini Örümceğe hoş geldiniz! :-")
 print("|------------------------------|")
 print("")
-useDataSearch = fileSearch()
+useDataSearch = Search()
 while True:
     print("Menü: 0)Çıkış 1)URL Listele 2)URL Ekle 3)Örümcek Gönder 4)Sonuçları Listele")
     menuSecim = int(input("Tercihiniz: "))

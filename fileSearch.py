@@ -1,9 +1,27 @@
-class fileSearch:
-       def karsila(self):
-           folder_path = input("********URL Listeleme Alanı *****")
-           dataOpen = open(self.dataFile, 'r')
-           for dataShow in dataOpen:
-               print(dataShow)
-           dataOpen.close()
+import os
+class Search:
+    def karsila(self):
+        #folder_path = input("********URL Listeleme Alanı *****")
+
+        klasorAdi = ('dokuman')
+
+        pdf_dosyalari=[dosya for dosya in os.listdir(klasorAdi) if dosya.endswith('.pdf')]
+
+        for pdf in pdf_dosyalari:
+            print(pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
